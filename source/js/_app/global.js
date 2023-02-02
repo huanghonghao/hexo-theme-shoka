@@ -2,7 +2,7 @@ var statics = CONFIG.statics.indexOf('//') > 0 ? CONFIG.statics : CONFIG.root
 var scrollAction = { x: 'undefined', y: 'undefined' };
 var diffY = 0;
 var originTitle, titleTime;
-
+var meting_api="https://meting-ve.2333332.xyz/api?server=:server&type=:type&id=:id&auth=:auth&r=:r";
 const BODY = document.getElementsByTagName('body')[0];
 const HTML = document.documentElement;
 const Container = $('#container');
